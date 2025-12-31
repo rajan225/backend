@@ -1,9 +1,9 @@
 <?php
-$servername = "mysql-4426148-rajan-fd02.l.aivencloud.com";
-$username   = "avnadmin";
-$password   = "AVNS_h5mG7pN3S6PnLsDcl33";
-$dbname     = "learnapp";
-$port="27759";
+$servername = getevn("dbHost");
+$username   =  getevn("dbUser");
+$password   =  getevn("dbPassword");
+$dbname     =  getevn("dbHost");
+$port= getevn("dbPort");
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname,$port);
 
