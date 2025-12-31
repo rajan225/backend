@@ -1,9 +1,10 @@
 <?php
-$servername = getevn("dbHost");
-$username   =  getevn("dbUser");
-$password   =  getevn("dbPassword");
-$dbname     =  getevn("dbHost");
-$port= getevn("dbPort");
+$servername = getenv("dbHost");
+$port= getenv("dbPort");
+$username   =  getenv("dbUser");
+$password   =  getenv("dbPassword");
+$dbname     =  getenv("dbName");
+
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname,$port);
 
