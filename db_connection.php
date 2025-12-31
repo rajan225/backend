@@ -1,8 +1,8 @@
 <?php
-$servername = "sql103.infinityfree.com";
-$username   = "if0_40792773";
-$password   = "RAjan9199";
-$dbname     = "if0_40792773_learnapp";
+$servername = "mysql-4426148-rajan-fd02.l.aivencloud.com";
+$username   = "avnadmin";
+$password   = "AVNS_h5mG7pN3S6PnLsDcl33";
+$dbname     = "learnapp";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
